@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Dead-Letter.Email\n"
+"POT-Creation-Date: 2019-01-30 04:33+0100\n"
+"PO-Revision-Date: 2019-01-30 04:39+0100\n"
+"Last-Translator: Sascha Greuel <sascha@softcreatr.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: wp-dead-letter.php:177
+msgid "The usage of disposable email addresses is not allowed."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Dead-Letter.Email"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.dead-letter.email"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Dead simple disposable email check that just works."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "SoftCreatR Media"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.softcreatr.com"
+msgstr ""
