@@ -19,8 +19,6 @@ It uses the Wordpress internal [is_email](https://developer.wordpress.org/refere
 
 This plugin is fully GDPR compliant, because all checks are performed within Wordpress. No external API is used, therefore no personal data will be shared with 3rd parties.
 
-As of now, there are no options. So you can easily install and forget it. It works right after it's installation/activation.
-
 == Installation ==
 
 = Download, Install and forget! =
