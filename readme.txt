@@ -17,7 +17,7 @@ This wordpress plugin utilizes our daily dump of disposable email address domain
 
 It uses the Wordpress internal [is_email](https://developer.wordpress.org/reference/hooks/is_email/) hook, therefore it integrates seamlessly into 3rd party plugins like WooCommerce, Gravity Forms, Jetpack and every other plugin that uses the [is_email()](https://developer.wordpress.org/reference/functions/is_email/) function.
 
-This plugin is fully GDPR compliant, because all checks are performed within Wordpress. No external API is used, therefore no personal data will be shared with 3rd parties.
+This plugin follows the "Privacy by design" principles by not sharing any personal informations of your users with 3rd parties. By installing/activating this plugin, you agree, that you've read and understood our [privacy policy](https://www.dead-letter.email/privacy-policy).
 
 == Installation ==
 
@@ -27,7 +27,7 @@ As of now, there are no options. So you can easily install and forget it. It wor
 == Frequently Asked Questions ==
 
 = What API is used? =
-This plugin doesn't use any external API. Every 24 hours, we publish an updated list of disposable email domains. This list is publicy accessible here: [https://www.dead-letter.email/blacklist_flat.json](https://www.dead-letter.email/blacklist_flat.json). The Dead-Letter plugin for Wordpress pulls this list every 24 hours and saves it locally.
+The Dead-Letter plugin for Wordpress doesn't use any external API. Every 24 hours, we publish an updated list of disposable email domains. This list is publicy accessible here: [https://www.dead-letter.email/blacklist_flat.json](https://www.dead-letter.email/blacklist_flat.json). This plugin just pulls this list every 24 hours and saves it locally.
 
 We think, that this is the most reliable and privacy friendly solution.
 
