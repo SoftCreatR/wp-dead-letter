@@ -3,7 +3,7 @@
 Plugin Name: Dead-Letter.Email
 Plugin URI:  https://www.dead-letter.email
 Description: Dead simple disposable email check that just works.
-Version:     0.0.1
+Version:     0.0.2
 Author:      SoftCreatR Media
 Author URI:  https://www.softcreatr.com
 Text Domain: wp-dead-letter
@@ -46,7 +46,7 @@ final class DeadLetter
      *
      * @var string
      */
-    const BLACKLIST_URL = '%s://raw.githubusercontent.com/SoftCreatR/dead-letter-dump/master/blacklist_flat.json';
+    const BLACKLIST_URL = 'https://www.dead-letter.email/blacklist_flat.json';
     
     /*
      * Whether the given email address is disposable or not
@@ -114,7 +114,7 @@ final class DeadLetter
         // Update database, if required
         if (!file_exists($dbFilename) || time() - filemtime($dbFilename) > 60 * 60 * 24) {
             try {
-                $response = wp_remote_get(sprintf(self::BLACKLIST_URL, wp_http_supports(array('ssl')) ? 'https' : 'http'));
+                $response = wp_remote_get(self::BLACKLIST_URL);
                 $responseCode = wp_remote_retrieve_response_code($response);
                 
                 if ($responseCode !== 200) {
