@@ -3,10 +3,10 @@
 Plugin Name: Dead-Letter.Email
 Plugin URI:  https://www.dead-letter.email
 Description: Dead simple disposable email check that just works.
-Version:     0.0.4
+Version:     0.0.5
 Author:      SoftCreatR Media
 Author URI:  https://www.softcreatr.com
-Text Domain: dead-letter
+Text Domain: dead-letter-email
 Domain Path: /languages
 License:     LGPLv2.1+
 
@@ -71,7 +71,7 @@ final class DeadLetter
     {
         // Load locales
         add_action('init', function() {
-            load_plugin_textdomain('dead-letter', false, dirname(plugin_basename(__FILE__)) . '/languages');
+            load_plugin_textdomain('dead-letter-email', false, dirname(plugin_basename(__FILE__)) . '/languages');
         });
         
         // Load the blacklist
@@ -180,7 +180,7 @@ final class DeadLetter
     public function displayError($errors)
     {
         if ($this->isDisposable) {
-            $message = __('The usage of disposable email addresses is not allowed.', 'dead-letter');
+            $message = __('The usage of disposable email addresses is not allowed.', 'dead-letter-email');
             
             if ($errors instanceof WP_Error) {
                 $errors->add('disposable_email', $message);
