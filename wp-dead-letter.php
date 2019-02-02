@@ -3,7 +3,7 @@
 Plugin Name: Dead-Letter.Email
 Plugin URI:  https://www.dead-letter.email
 Description: Dead simple disposable email check that just works.
-Version:     0.0.3
+Version:     0.0.4
 Author:      SoftCreatR Media
 Author URI:  https://www.softcreatr.com
 Text Domain: dead-letter
