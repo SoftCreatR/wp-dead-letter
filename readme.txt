@@ -5,7 +5,7 @@ Donate link: https://www.paypal.me/wlplugins
 Requires at least: 2.9
 Tested up to: 5.0.3
 Requires PHP: 5.4
-Stable tag: 0.0.3
+Stable tag: 0.0.4
 License: LGPL
 License URI: https://github.com/SoftCreatR/wp-dead-letter/blob/master/LICENSE
 
@@ -45,6 +45,9 @@ If you don't have a Github account or prefer staying anonymous, use our  [Git Re
 However, before creating an issue, please make sure, that the concerning domain is really undetected. To do so, simply perform a quick check at [https://www.dead-letter.email](https://www.dead-letter.email/)
 
 == Changelog ==
+
+= 0.0.4 - 2019-02-02 =
+* BUG FIX: Changed text domain to match the WordPress plugin url
 
 = 0.0.3 - 2019-02-02 =
 * BUG FIX: Fixed translation init
