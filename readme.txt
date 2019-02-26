@@ -3,7 +3,7 @@ Contributors: SoftCreatR
 Tags: blacklist, whitelist, email, disposable email, disposable emails, trashmail, trash mail, trash email, disposable domain, disposable domains, disposable, email validation, email verification, validation, verification
 Donate link: https://www.paypal.me/wlplugins
 Requires at least: 2.9
-Tested up to: 5.2-alpha-44768
+Tested up to: 5.1
 Requires PHP: 5.4
 Stable tag: 0.0.5
 License: LGPL
