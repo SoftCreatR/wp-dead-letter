@@ -13,7 +13,7 @@ msgstr ""
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: wp-dead-letter.php:177
+#: wp-dead-letter.php:190
 msgid "The usage of disposable email addresses is not allowed."
 msgstr ""
 

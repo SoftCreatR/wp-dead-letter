@@ -3,9 +3,9 @@ Contributors: SoftCreatR
 Tags: blacklist, whitelist, email, disposable email, disposable emails, trashmail, trash mail, trash email, disposable domain, disposable domains, disposable, email validation, email verification, validation, verification
 Donate link: https://www.paypal.me/wlplugins
 Requires at least: 2.9
-Tested up to: 5.1
+Tested up to: 5.3.2
 Requires PHP: 5.4
-Stable tag: 0.0.5
+Stable tag: 0.0.6
 License: LGPL
 License URI: https://github.com/SoftCreatR/wp-dead-letter/blob/master/LICENSE
 
@@ -45,6 +45,9 @@ If you don't have a Github account or prefer staying anonymous, use our  [Git Re
 However, before creating an issue, please make sure, that the concerning domain is really undetected. To do so, simply perform a quick check at [https://www.dead-letter.email](https://www.dead-letter.email/)
 
 == Changelog ==
+
+= 0.0.6 - 2020-03-08 =
+* OTHER: Applied small optimizations
 
 = 0.0.5 - 2019-02-02 =
 * BUG FIX: Fixed last commit

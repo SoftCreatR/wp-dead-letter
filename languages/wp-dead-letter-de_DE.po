@@ -21,7 +21,7 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: wp-dead-letter.php:177
+#: wp-dead-letter.php:190
 msgid "The usage of disposable email addresses is not allowed."
 msgstr "Die Verwendung von Wegwerf-Adressen ist nicht gestattet."
 
